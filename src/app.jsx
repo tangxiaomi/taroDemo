@@ -21,6 +21,8 @@ class App extends Component {
 
   config = {
     pages: [
+      'pages/blog/blogData', //谁在最上边 谁就是默认的打开页面
+      'pages/blog/blog',
       'pages/index/index'
     ],
     window: {
